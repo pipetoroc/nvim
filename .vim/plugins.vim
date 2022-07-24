@@ -7,6 +7,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'chriskempson/base16-vim'
 Plug 'phanviet/vim-monokai-pro'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 "NerdTree
 Plug 'preservim/nerdtree' 
@@ -21,6 +22,7 @@ Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'ap/vim-css-color'
 
 "Tmux
 Plug 'benmills/vimux'
