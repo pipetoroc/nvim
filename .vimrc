@@ -36,8 +36,8 @@ so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim
 
 let g:gruvbox_contrast_dark = "hard"
-colorscheme gruvbox
-let g:airline_theme='gruvbox'
+colorscheme tokyonight
+let g:airline_theme='tokyonight'
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
