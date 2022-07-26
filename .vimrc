@@ -12,9 +12,9 @@ set cursorline
 set hidden "COC
 set termguicolors
 set clipboard+=unnamedplus
-set scrolloff=4
+set scrolloff=8
 set wildmenu
-set nowrap
+"set nowrap
 set sw=2
 
 "Options tabs
@@ -23,7 +23,11 @@ set softtabstop=4
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+"Indentation
 set smartindent
+set autoindent
+set breakindent
 
 "" Searching
 set hlsearch                    " highlight matches
@@ -36,8 +40,8 @@ so ~/.vim/plugin-config.vim
 so ~/.vim/maps.vim
 
 let g:gruvbox_contrast_dark = "hard"
-colorscheme tokyonight
-let g:airline_theme='tokyonight'
+colorscheme gruvbox
+let g:airline_theme='gruvbox'
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
